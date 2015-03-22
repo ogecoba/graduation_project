@@ -1,0 +1,231 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.testing.softcust.emuitapp.Course"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:background="#000026"
+    android:orientation="vertical">
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TextView
+            android:text="@string/course_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:layout_width="336dp"
+            android:layout_height="34dp"
+            android:id="@+id/txtCourseID"
+            android:background="#ffffffff"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TextView
+            android:text="@string/C_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:layout_width="336dp"
+            android:layout_height="34dp"
+            android:id="@+id/txtCourseName"
+            android:background="#ffffffff"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TextView
+            android:text="@string/Ref_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:layout_width="336dp"
+            android:layout_height="34dp"
+            android:id="@+id/txtRefCode"
+            android:background="#ffffffff"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TextView
+            android:text="@string/Emu_credit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:layout_width="336dp"
+            android:layout_height="34dp"
+            android:id="@+id/txtEmuCredit"
+            android:background="#ffffffff"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TextView
+            android:text="@string/Ects_credit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:layout_width="336dp"
+            android:layout_height="34dp"
+            android:id="@+id/txtEctsCredit"
+            android:background="#ffffffff"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TextView
+            android:text="@string/Perequisites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:layout_width="336dp"
+            android:layout_height="34dp"
+            android:id="@+id/txtPrerequisites"
+            android:background="#ffffffff"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TextView
+            android:text="@string/Lab_Hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:layout_width="336dp"
+            android:layout_height="34dp"
+            android:id="@+id/txtLabHour"
+            android:background="#ffffffff"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TextView
+            android:text="@string/Lecture_Hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:layout_width="336dp"
+            android:layout_height="34dp"
+            android:id="@+id/txtLectureHour"
+            android:background="#ffffffff"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TextView
+            android:text="@string/Tutorial_Hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:layout_width="336dp"
+            android:layout_height="34dp"
+            android:id="@+id/txtTutorialHour"
+            android:background="#ffffffff"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TextView
+            android:text="@string/c_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:layout_width="336dp"
+            android:layout_height="34dp"
+            android:id="@+id/txtCourseDescription"
+            android:background="#ffffffff"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableLayout android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TextView
+            android:text="@string/cat_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"/>
+
+        <Spinner
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/drp_category"
+            android:background="#ffffff">
+
+        </Spinner>
+    </TableLayout>
+
+    <TableLayout android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TextView
+            android:text="@string/semester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"/>
+
+        <Spinner
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/drp_semester"
+            android:background="#ffffff">
+
+        </Spinner>
+    </TableLayout>
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/save_course"
+            android:textSize="25sp"
+            android:id="@+id/btnSaveCourse"
+            android:background="#fffba222"
+            android:textColor="#ffffff"/>
+    </TableRow>
+
+</TableLayout>
+    </HorizontalScrollView>
+</ScrollView>

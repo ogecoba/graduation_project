@@ -1,0 +1,73 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.testing.softcust.emuitapp.EditCategory"
+    android:background="#000026"
+    android:orientation="vertical">
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TextView
+            android:text="@string/Category_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:layout_width="336dp"
+            android:layout_height="34dp"
+            android:id="@+id/txtUCategoryID"
+            android:background="#ffffffff"
+            android:inputType="text"
+            android:editable="false"/>
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TextView
+            android:text="@string/Category_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:layout_width="336dp"
+            android:layout_height="34dp"
+            android:id="@+id/txtUCategoryName"
+            android:background="#ffffffff"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TextView
+            android:text="@string/cat_Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:layout_width="336dp"
+            android:layout_height="34dp"
+            android:id="@+id/txtUCategoryDesc"
+            android:background="#ffffffff"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Update"
+            android:textSize="25sp"
+            android:id="@+id/btnUpdateCategory"
+            android:background="#fffba222"
+            android:textColor="#ffffff"/>
+    </TableRow>
+
+</TableLayout>

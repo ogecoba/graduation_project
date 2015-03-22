@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.testing.softcust.emuitapp.AdminPanel"
+    android:background="#000026"
+>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<ImageView
+    android:layout_width="157dp"
+    android:layout_height="157dp"
+    android:src="@drawable/admin"
+    android:layout_gravity="center_horizontal"
+    />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Administrative Panel"
+            android:textColor="#FFF"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:fontFamily=""
+            android:typeface="normal" />
+
+
+        </LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgStaff"
+        android:drawableTop="@drawable/user"
+        android:text="User"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgPhoto"
+        android:drawableTop="@drawable/gallery1"
+        android:text="Photo"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgCourse"
+        android:drawableTop="@drawable/course"
+        android:text="Course"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        style="?android:attr/borderlessButtonStyle"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgevent"
+            android:drawableTop="@drawable/event"
+            android:text="Event"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            style="?android:attr/borderlessButtonStyle"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgcurriculum"
+            android:drawableTop="@drawable/curriculum"
+            android:text="Curriculum"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            style="?android:attr/borderlessButtonStyle"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgCategory"
+            android:drawableTop="@drawable/category"
+            android:text="Category"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            style="?android:attr/borderlessButtonStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgsemester"
+            android:drawableTop="@drawable/semester"
+            android:text="Semester"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            style="?android:attr/borderlessButtonStyle"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

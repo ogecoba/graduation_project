@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.testing.softcust.emuitapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".AdminPanel"
+            android:label="@string/title_activity_admin_panel" >
+        </activity>
+        <activity
+            android:name=".AddStaffInfo"
+            android:label="@string/title_activity_add_staff_info" >
+        </activity>
+        <activity
+            android:name=".Course"
+            android:label="@string/title_activity_course" >
+        </activity>
+        <activity
+            android:name=".CourseCategory"
+            android:label="@string/title_activity_course_category" >
+        </activity>
+        <activity
+            android:name=".AddSemester"
+            android:label="@string/title_activity_add_semester" >
+        </activity>
+        <activity
+            android:name=".AddEvent"
+            android:label="@string/title_activity_add_event" >
+        </activity>
+        <activity
+            android:name=".AddCurriculum"
+            android:label="@string/title_activity_add_curriculum" >
+        </activity>
+        <activity
+            android:name=".AddPicture"
+            android:label="@string/title_activity_add_picture" >
+        </activity>
+        <activity
+            android:name=".ViewCategoryList"
+            android:label="@string/title_activity_view_category_list" >
+        </activity>
+        <activity
+            android:name=".CategoryHome"
+            android:label="@string/title_activity_category_home" >
+        </activity>
+        <activity
+            android:name=".EditCategory"
+            android:label="@string/title_activity_edit_category" >
+        </activity>
+        <activity
+            android:name=".ViewCategoryDetails"
+            android:label="@string/title_activity_view_category_details" >
+        </activity>
+        <activity
+            android:name=".DeleteCourseCategory"
+            android:label="@string/title_activity_delete_course_category" >
+        </activity>
+        <activity
+            android:name=".AllCategory"
+            android:label="@string/title_activity_all_category" >
+        </activity>
+        <activity
+            android:name=".StaffHome"
+            android:label="@string/title_activity_staff_home" >
+        </activity>
+        <activity
+            android:name=".EventHome"
+            android:label="@string/title_activity_event_home" >
+        </activity>
+        <activity
+            android:name=".CurriculumHome"
+            android:label="@string/title_activity_curriculum_home" >
+        </activity>
+        <activity
+            android:name=".CourseHome"
+            android:label="@string/title_activity_course_home" >
+        </activity>
+        <activity
+            android:name=".GalleryHome"
+            android:label="@string/title_activity_gallery_home" >
+        </activity>
+        <activity
+            android:name=".SemesterHome"
+            android:label="@string/title_activity_semester_home" >
+        </activity>
+        <activity
+            android:name=".CourseDetails"
+            android:label="@string/title_activity_course_details" >
+        </activity>
+    </application>
+
+</manifest>
